@@ -1,10 +1,21 @@
 {
   "name": "@junicus/form-validation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "package for doing form validation in react",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/Junicus/form-validation.git",
-  "author": "Nelson Segarra",
+  "author": {
+    "name": "Nelson Segarra",
+    "email": "junicus@outlook.com"
+  },
   "license": "MIT",
-  "private": true
+  "private": false,
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "yarn run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
 }
