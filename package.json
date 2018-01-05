@@ -1,0 +1,10 @@
+{
+  "name": "@junicus/form-validation",
+  "version": "0.0.1",
+  "description": "package for doing form validation in react",
+  "main": "dist/index.js",
+  "repository": "https://github.com/Junicus/form-validation.git",
+  "author": "Nelson Segarra",
+  "license": "MIT",
+  "private": true
+}
